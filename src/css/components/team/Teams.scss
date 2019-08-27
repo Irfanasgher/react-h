@@ -1,0 +1,26 @@
+.team{
+    .social{
+        .fa{
+            font-size: 1.3rem;
+            padding: 5px;
+            margin: 5px;
+            color: #ffffff;
+            border-radius: 100px;
+            background-color: #3ecf8e;
+            border: 1p solid #3ecf8e;
+            &:hover{
+                color:#3ecf8e;
+                background-color: #fff;
+                border: 1px solid #3ecf8e;
+            }
+        }
+        
+    }
+    .inner{
+        transition: .3s;
+        &:hover{
+            border:1px solid #3ecf8e !important;
+            box-shadow: 0 0 10px #a5a5a5;
+        }
+    }
+}

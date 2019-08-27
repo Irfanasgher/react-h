@@ -1,0 +1,29 @@
+.header-main{
+    background: -webkit-linear-gradient(bottom left, #391cc7 0%, #26d9f5 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+    height: 650px;
+    width: 100%;
+}
+.header{
+    position: absolute;
+    top: 150px;
+    padding: 0;
+    .col-md-6:nth-child(1){
+        color: white;
+        
+        h1{
+            line-height: 50.5px;
+            font-size: 2.2rem;
+        }
+        p{
+            line-height: 30.5px;
+            font-size: 1.25rem;
+        }
+    }
+    .col-md-6:nth-child(2){
+        img{
+            height: 500px;
+            width: 550px;
+        }
+    }
+}

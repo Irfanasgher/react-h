@@ -1,0 +1,26 @@
+.services{
+    background-color: #F9F9F9;
+    p{
+        font-size: 1.1rem;
+        color: #5E629C;
+    }
+    .col-md-6{
+        background-color: #FFFFFF;
+        transition: .3s;
+            i{
+                font-size: 40px;
+                color: #3ecf8e;
+                background-color: rgb(227, 255, 242);
+                border-radius: 100%;
+                transition: 1s;
+            }
+            &:hover{
+                box-shadow: 0 0 10px #a5a5a5;
+                i{
+                    color:white;
+                    background-color: #3ecf8e;
+                }
+            }
+    
+    }
+}

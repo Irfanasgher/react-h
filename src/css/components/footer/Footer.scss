@@ -1,0 +1,23 @@
+.footer{
+    background-color: #180E29;
+    line-height: 35px;
+   
+    ul{
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+    input[type=text]{
+        border:1px solid white;
+        border-radius: 5px;
+        background-color: #180E29;
+    }
+    button{
+        border-radius: 5px;
+    }
+    .copyright{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,23 @@
+
+
+.black{
+    position:fixed;
+    background: -webkit-linear-gradient(bottom left, #5533ff 0%, #26d9f5 100%);
+    padding:10px; 
+    width: 100%;
+    transition: 2s; 
+    z-index: 100;  
+  }
+.navbar-brand{
+      font-size: 3rem;
+      img{
+        height: 50px;
+      }
+  }
+
+  .blue{
+    position:stiky;
+    top:0;
+    transition: 2s; 
+
+  }

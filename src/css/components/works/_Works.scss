@@ -1,0 +1,42 @@
+.works-main {
+    .head {
+        background: -webkit-linear-gradient(bottom left, #391cc7 0%, #26d9f5 100%);
+        padding: 100px 0px;
+    }
+
+    .slider {
+        .container {
+            .carousel {
+                height: 350px;
+
+                .col-md-3 {
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+            }
+
+            .blog .carousel-indicators {
+                left: 0;
+                top: auto;
+                bottom: 0px;
+
+
+            }
+
+            /* The colour of the indicators */
+            .blog .carousel-indicators li {
+                background: #3ecf8e;
+                border-radius: 100%;
+                width: 8px;
+                height: 0px;
+            }
+
+            .blog .carousel-indicators .active {
+                background: #097c48;
+            }
+        }
+    }
+}

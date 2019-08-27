@@ -1,0 +1,25 @@
+.plans{
+    .row{
+        .col-md-4{
+            h1{
+                font-size:3rem;
+                color: #3ecf8e;
+                font-weight: bold;
+            }
+            ul{
+                line-height: 35px;
+                li{
+                    color: #5E62A2;
+                    
+                }
+            }
+            .inner{
+                transition: .3s;
+                &:hover{
+                    border:1px solid #3ecf8e !important;
+                    box-shadow: 0 0 10px #a5a5a5;
+                }
+            }
+        }
+    }
+}
